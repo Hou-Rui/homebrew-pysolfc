@@ -7,5 +7,7 @@ cask 'pysolfc' do
   app 'PySolFC.app'
   desc 'PySol Fan Club Edition (PySolFC) is a collection of more than 1000 solitaire card games. It is a fork of PySol Solitaire.'
   homepage 'https://pysolfc.sourceforge.io/'
+
+  zap delete: '~/.PySolFC'
 end
 
